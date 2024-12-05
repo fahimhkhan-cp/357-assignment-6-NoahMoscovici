@@ -258,6 +258,11 @@ static CountyRecord *load_demographics(const char *filename, int *num_records) {
 
     *num_records = count;
     printf("%d records loaded\n", count);
+
+    for (int i = 0; i < hcount; i++) {
+        free(headers[i]);
+    }
+
     return records;
 }
 
