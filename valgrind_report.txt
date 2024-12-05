@@ -1,0 +1,112 @@
+nmoscovi@unix1:~/357-assignment-6-NoahMoscovici $ valgrind --leak-check=yes ./task_1.out county_demographics.csv bachelors_ge_60.ops
+==25007== Memcheck, a memory error detector
+==25007== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==25007== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==25007== Command: ./task_1.out county_demographics.csv bachelors_ge_60.ops
+==25007== 
+3143 records loaded
+Filter: Education.Bachelor's Degree or Higher ge 60.000000 (5 entries)
+Howard County, MD
+        Population: 309284
+        Education
+                >= High School: 94.900002%
+                >= Bachelor's: 60.000000%
+        Ethnicity Percentages
+                American Indian and Alaska Native: 0.400000%
+                Asian Alone: 16.900000%
+                Black Alone: 18.600000%
+                Hispanic or Latino: 6.400000%
+                Native Hawaiian and Other Pacific Islander Alone: 0.100000%
+                Two or More Races: 3.600000%
+                White Alone: 60.400002%
+                White Alone, not Hispanic or Latino: 55.400002%
+        Income
+                Median Household: 109865
+                Per Capita: 48172
+                Below Poverty Level: 4.600000%
+
+Los Alamos County, NM
+        Population: 17682
+        Education
+                >= High School: 97.000000%
+                >= Bachelor's: 63.400002%
+        Ethnicity Percentages
+                American Indian and Alaska Native: 1.300000%
+                Asian Alone: 6.400000%
+                Black Alone: 0.700000%
+                Hispanic or Latino: 16.700001%
+                Native Hawaiian and Other Pacific Islander Alone: 0.100000%
+                Two or More Races: 2.500000%
+                White Alone: 89.000000%
+                White Alone, not Hispanic or Latino: 73.599998%
+        Income
+                Median Household: 106686
+                Per Capita: 51044
+                Below Poverty Level: 4.400000%
+
+Arlington County, VA
+        Population: 226908
+        Education
+                >= High School: 93.300003%
+                >= Bachelor's: 71.699997%
+        Ethnicity Percentages
+                American Indian and Alaska Native: 0.700000%
+                Asian Alone: 10.300000%
+                Black Alone: 9.100000%
+                Hispanic or Latino: 15.700000%
+                Native Hawaiian and Other Pacific Islander Alone: 0.100000%
+                Two or More Races: 3.200000%
+                White Alone: 76.599998%
+                White Alone, not Hispanic or Latino: 62.799999%
+        Income
+                Median Household: 103208
+                Per Capita: 62018
+                Below Poverty Level: 8.000000%
+
+Alexandria city, VA
+        Population: 150575
+        Education
+                >= High School: 91.199997%
+                >= Bachelor's: 61.400002%
+        Ethnicity Percentages
+                American Indian and Alaska Native: 0.800000%
+                Asian Alone: 6.900000%
+                Black Alone: 22.600000%
+                Hispanic or Latino: 16.600000%
+                Native Hawaiian and Other Pacific Islander Alone: 0.100000%
+                Two or More Races: 3.100000%
+                White Alone: 66.400002%
+                White Alone, not Hispanic or Latino: 52.299999%
+        Income
+                Median Household: 85706
+                Per Capita: 54608
+                Below Poverty Level: 8.400000%
+
+Falls Church city, VA
+        Population: 13601
+        Education
+                >= High School: 97.300003%
+                >= Bachelor's: 74.400002%
+        Ethnicity Percentages
+                American Indian and Alaska Native: 0.500000%
+                Asian Alone: 9.300000%
+                Black Alone: 5.300000%
+                Hispanic or Latino: 9.500000%
+                Native Hawaiian and Other Pacific Islander Alone: 0.100000%
+                Two or More Races: 4.300000%
+                White Alone: 80.599998%
+                White Alone, not Hispanic or Latino: 72.300003%
+        Income
+                Median Household: 120000
+                Per Capita: 59088
+                Below Poverty Level: 4.000000%
+
+==25007== 
+==25007== HEAP SUMMARY:
+==25007==     in use at exit: 0 bytes in 0 blocks
+==25007==   total heap usage: 6,343 allocs, 6,343 frees, 460,627 bytes allocated
+==25007== 
+==25007== All heap blocks were freed -- no leaks are possible
+==25007== 
+==25007== For lists of detected and suppressed errors, rerun with: -s
+==25007== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
